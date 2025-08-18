@@ -26,8 +26,7 @@ The AI classifies the spoken input as **Positive 😊**, **Negative 😠**, or *
 - Python 🐍  
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – speech-to-text  
 - [PyAudio](https://pypi.org/project/PyAudio/) – microphone input  
-- [TextBlob](https://textblob.readthedocs.io/en/dev/) – sentiment analysis  
-- Git + GitHub – version control  
+- [TextBlob](https://textblob.readthedocs.io/en/dev/) – sentiment analysis
 
 ---
 
