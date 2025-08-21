@@ -6,7 +6,7 @@ It uses:
 - **SpeechRecognition + Google API** for speech-to-text  
 - **TextBlob** for natural language sentiment analysis  
 
-The AI classifies the spoken input as **Positive 😊**, **Negative 😠**, or **Neutral 😐**.  
+The AI classifies the spoken input as **Positive**, **Negative**, or **Neutral**.  
 
 ---
 
@@ -31,7 +31,7 @@ The AI classifies the spoken input as **Positive 😊**, **Negative 😠**, or *
 ---
 
 ## ✅ Achievements  
-- Built a functional **speech-to-text + sentiment analysis AI** 🎉  
+- Built a functional **speech-to-text + sentiment analysis AI**
 - Automated analysis of spoken language into **positive, neutral, or negative** tone.  
 
 ---
