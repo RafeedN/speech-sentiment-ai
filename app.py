@@ -4,30 +4,30 @@ from textblob import TextBlob
 def speech_to_text():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        print("🎤 Say something...")
+        print("Say something...")
         audio = recognizer.listen(source, timeout=5, phrase_time_limit=20)
-        print("🔍 Recognizing...")
+        print("Recognizing...")
 
         try:
             text = recognizer.recognize_google(audio)
             print(f"You said: {text}")
             return text
         except sr.UnknownValueError:
-            print("❌ Sorry, could not understand audio.")
+            print("Sorry, could not understand audio.")
             return None
         except sr.RequestError:
-            print("⚠️ Could not request results. Check internet connection.")
+            print("Could not request results. Check internet connection.")
             return None
 
 def analyze_sentiment(text):
     blob = TextBlob(text)
     sentiment = blob.sentiment.polarity
     if sentiment > 0:
-        return "😊 Positive"
+        return "Positive"
     elif sentiment < 0:
-        return "😠 Negative"
+        return "Negative"
     else:
-        return "😐 Neutral"
+        return "Neutral"
 
 if __name__ == "__main__":
     text = speech_to_text()
