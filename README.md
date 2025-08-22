@@ -1,6 +1,6 @@
 # Speech-to-Text Sentiment Analysis AI  
 
-## 📌 Project Description  
+## Project Description  
 This project is a simple **AI-powered application** that converts **speech into text** and performs **sentiment analysis** on the spoken words.  
 It uses:  
 - **SpeechRecognition + Google API** for speech-to-text  
@@ -10,19 +10,19 @@ The AI classifies the spoken input as **Positive**, **Negative**, or **Neutral**
 
 ---
 
-## 🎯 Learning Goals  
+## Learning Goals  
 - Understand how to build an end-to-end **AI pipeline** from raw input (speech) → processed data (text) → analysis (sentiment).  
 - Learn to work with **Python libraries for AI and NLP**.  
 
 ---
 
-## 📚 What I Learned  
+## What I Learned  
 - How to capture microphone input in Python using `speech_recognition`.  
 - How to preprocess and analyze text sentiment with `TextBlob`.    
 
 ---
 
-## 🛠️ Tools & Libraries Used  
+## Tools & Libraries Used  
 - Python 🐍  
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – speech-to-text  
 - [PyAudio](https://pypi.org/project/PyAudio/) – microphone input  
@@ -30,13 +30,13 @@ The AI classifies the spoken input as **Positive**, **Negative**, or **Neutral**
 
 ---
 
-## ✅ Achievements  
+## Achievements  
 - Built a functional **speech-to-text + sentiment analysis AI**
 - Automated analysis of spoken language into **positive, neutral, or negative** tone.  
 
 ---
 
-✨ Future improvements could include:  
+## Future improvements could include:  
 - Using **transformers (Hugging Face)** for more advanced sentiment analysis.  
 - Building a GUI or web app so non-technical users can try it.  
 - Logging all transcripts and sentiments into a database or file.  
