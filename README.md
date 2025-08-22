@@ -23,7 +23,7 @@ The AI classifies the spoken input as **Positive**, **Negative**, or **Neutral**
 ---
 
 ## Tools & Libraries Used  
-- Python 🐍  
+- Python
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – speech-to-text  
 - [PyAudio](https://pypi.org/project/PyAudio/) – microphone input  
 - [TextBlob](https://textblob.readthedocs.io/en/dev/) – sentiment analysis
